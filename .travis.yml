@@ -12,5 +12,4 @@ install:
   - unzip /tmp/EcoliTestRun.zip contigs.fasta reference.fasta raw_reads.fasta -d /tmp/EcoliTestRun
 # command to run tests, e.g. python setup.py test
 script: 
-  - /tmp/MUMmer3.23/nucmer
   - python onlineTest.py 
